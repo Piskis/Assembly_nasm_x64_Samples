@@ -10,7 +10,7 @@ global _start
 _start:
     mov rsi, msg1
     mov rdx, len1
-    jmp _say                     ; is an exaple hov to simplificate your work to not write every time rax, rdi and syscall
+    jmp _say                    ; is an exaple hov to simplificate your work to not write every time rax, rdi and syscall
 
 _say: 
     mov rax, 1

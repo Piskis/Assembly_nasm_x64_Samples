@@ -8,7 +8,7 @@ _start:
   mov rsi, msg
   mov rdx, len 
   jmp _print
-  ; After "print" program will jamp to exit
+  ; After "print" program will jump to exit
   jmp _exit
 
 _print:
