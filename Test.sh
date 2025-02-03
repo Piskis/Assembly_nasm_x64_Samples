@@ -1,4 +1,9 @@
+# its a tui compiler, I will remove it when will finish all samples
+
 #!/bin/bash 
+
+
+
 
 files=$(ls *.asm 2>/dev/null)
 
