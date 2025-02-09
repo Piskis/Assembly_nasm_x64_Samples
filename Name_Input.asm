@@ -46,3 +46,4 @@ _start:
   syscall 
 
 ; if you dont understend somsing look at "Hello_World.asm"
+; It is also very important in the .data section to define the length of msgX immediately after it and in this exact order; otherwise, the program will not work correctly!
