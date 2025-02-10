@@ -3,10 +3,9 @@ Name resb 15                              ; how many place in Variable "Name"; n
 
 section .data 
 Question db "What is your name?", 0, 10
+LenQ equ $ - Question 
 Hello db "Hello "
 LenH equ $ - Hello 
-LenQ equ $ - Question 
-
 
 section .text 
 global _start 
